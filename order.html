@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>綺毛寄 KIMO-JI｜線上訂購</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header>
+  <div class="container navbar">
+    <a class="brand" href="index.html">
+      <div class="logo" aria-hidden="true"></div>
+      <div>
+        綺毛寄
+        <small>KIMO-JI</small>
+      </div>
+    </a>
+    <nav>
+      <a href="index.html">首頁</a>
+      <a href="plans.html">住宿方案</a>
+      <a href="menu.html">健康餐</a>
+      <a href="order.html">線上訂購</a>
+      <a href="records.html">健康紀錄</a>
+      <a href="takeaway.html">外帶／外送</a>
+      <a href="social.html">今日毛孩餐</a>
+      <a href="about.html">關於我們</a>
+    </nav>
+    <a class="btn secondary" href="order.html">登入／註冊</a>
+  </div>
+</header>
+
+<main class="page"><div class="container">
+  <div class="section-title"><h2>線上訂購頁</h2><p>把住宿預約和健康餐加購整合在同一頁</p></div>
+  <section class="grid grid-2">
+    <article class="card"><ol class="steps"><li>選日期</li><li>選方案</li><li>選餐點</li><li>填資料</li><li>完成</li></ol>
+      <h3 style="margin-top:24px">入住日期</h3>
+      <div class="calendar">
+        <span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span>
+        <span></span><span></span><span>1</span><span>2</span><span>3</span><span class="on">4</span><span>5</span>
+        <span>6</span><span>7</span><span>8</span><span>9</span><span class="on">10</span><span>11</span><span>12</span>
+        <span>13</span><span>14</span><span class="on">15</span><span>16</span><span>17</span><span>18</span><span>19</span>
+      </div>
+    </article>
+    <article class="card">
+      <h3>選擇方案</h3>
+      <p><label><input type="radio" name="plan"> 基本住宿方案 $500／天</label></p>
+      <p><label><input type="radio" name="plan" checked> 健康住宿套餐 $629／天</label></p>
+      <h3>健康餐加購</h3>
+      <p><label>每日一餐 <select><option>活力雞肉餐</option><option>鮭魚營養餐</option></select></label></p>
+      <p><label>數量 <input type="number" value="1" min="1" style="padding:10px 12px;border-radius:12px;border:1px solid var(--line);width:120px"></label></p>
+      <div class="notice">這一頁正式開發時，可串接資料庫、會員資料與付款系統。</div>
+      <p style="margin-top:16px"><a class="btn" href="#">下一步</a></p>
+    </article>
+  </section>
+</div></main>
+<footer class="footer container small">
+  <div>綺毛寄 KIMO-JI｜毛孩五星健康食宿升級計劃</div>
+</footer>
+</body>
+</html>
